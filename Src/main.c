@@ -32,12 +32,10 @@ Ucglib4WireSWSPI_begin(&ucg, UCG_FONT_MODE_SOLID);
 ucg_ClearScreen(&ucg);
 
 ucg_SetFont(&ucg, ucg_font_helvB12_tf);//lựa chọn font chữ và cỡ chữ
-ucg_SetColor(&ucg, 0, 0, 100, 0);//chọn màu chữ là màu trắng
+ucg_SetColor(&ucg, 0, 0, 255, 0);//chọn màu chữ là màu xanh
 ucg_SetColor(&ucg, 1,0,0,0);		//màu background là màu đen
 ucg_SetRotate180(&ucg);				//quay màn hình lại 180 độ
-ucg_DrawString(&ucg, 0, 12, 0, "Toi la nan");//in dòng chữ ra LCD
-ucg_DrawString(&ucg,0,26,0,"nhan cua");
-ucg_DrawString(&ucg,0,42,0,"K01 :))))");
+ucg_DrawString(&ucg, 58,128, 0, "N6_Day5");//in dòng chữ ra LCD
 /* Loop foverer */
 while(1)
 {
